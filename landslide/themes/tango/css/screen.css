@@ -190,6 +190,9 @@ a {
 pre, code, tt {
   font-family: Monaco, Consolas, 'Bitstream Vera Sans Mono', 'Lucida Console', FreeMono, Courier, monospace;
 }
+code {
+    background-color: yellow;
+}
 
 pre, .gist .gist-file .gist-data {
   font-size: 18px;
