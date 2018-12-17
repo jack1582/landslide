@@ -1,5 +1,20 @@
 # Landslide
 
+## ChangeLog by jack 2018.12.17
+* 为ribbon和tango模式增加允许向下滚动显示超出区域的内容
+* 在default（即全局），调整js避免向下拉动展示内容时，导致翻页
+* 为tango主题的code增加黄色背景
+* 修改程序的默认主题为tango，并为usage说明增加主题列举，避免看代码才知道-t有哪些参数
+* 修改README文件，增加上述说明，备忘
+
+* 变更应用
+    * clone仓库
+    * cd landslide/landslide/
+    * python  -c "import landslide as l;print(l.__file__)" #查看landslide安装位置
+    * rsync -n -cv ./ /path/to/python/site-package/landslide #空跑校验有哪些更新
+    * rsync -cv ./ xxx  #同上，真实更新
+
+
 Landslide generates a slideshow using from markdown, ReST, or textile. It
 builds off of Google's [html5slides][html5slides] template.
 

@@ -105,8 +105,8 @@ def _parse_options():
     parser.add_option(
         "-t", "--theme",
         dest="theme",
-        help="A theme name, or path to a landlside theme directory",
-        default='default')
+        help="A theme name, or path to a landlside theme directory. e.g. default/tango/ribbon/light/leapmotion. try tango (and now it's default), it's single-file and optimized by jack",
+        default='tango')
 
     parser.add_option(
         "-v", "--verbose",
