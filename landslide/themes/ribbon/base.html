@@ -32,7 +32,7 @@
     {% for slide in slides %}
       <!-- slide source: {% if slide.source %}{{ slide.source.rel_path }}{% endif %} -->
         <section class="slide{% if slide.classes %}{% for class in slide.classes %} {{ class }}{% endfor %}{% endif %}">
-            <div>
+            <div style="overflow: scroll">
                 {% if slide.header %}
                     <header>{{ slide.header }}</header>
                 {% endif %}

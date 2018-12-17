@@ -59,7 +59,8 @@ div.slide {
   background: url('background.png') bottom center no-repeat;
   display: none;
   position: absolute;
-  overflow: hidden;
+  /* overflow: hidden; */ /* by jack */
+  overflow: scroll;
   width: 900px;
   height: 700px;
   left: 50%;
@@ -156,6 +157,7 @@ section, .slide header:only-child h1 {
   margin-right: 30px;
   margin-top: 100px;
   display: block;
+  /* overflow: hidden; */ /* by jack, to overflow scroll */
   overflow: hidden;
 }
 
