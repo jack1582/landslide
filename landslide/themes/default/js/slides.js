@@ -461,6 +461,7 @@ function main() {
     };
 
     var handleWheel = function(event) {
+        return; // add by jack 避免想向下拉滚动条时，导致翻页
         if (tocOpened || helpOpened || overviewActive) {
             return;
         }
