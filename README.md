@@ -11,8 +11,8 @@
     * clone仓库
     * cd landslide/landslide/
     * python  -c "import landslide as l;print(l.__file__)" #查看landslide安装位置
-    * rsync -n -cv ./ /path/to/python/site-package/landslide #空跑校验有哪些更新
-    * rsync -cv ./ xxx  #同上，真实更新
+    * rsync -n -rcv ./ /path/to/python/site-package/landslide #空跑校验有哪些更新
+    * rsync -rcv ./ xxx  #同上，真实更新
 ---
 
 Landslide generates a slideshow using from markdown, ReST, or textile. It
